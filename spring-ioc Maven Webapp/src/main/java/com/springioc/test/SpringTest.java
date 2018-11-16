@@ -8,5 +8,6 @@ public class SpringTest {
         MyClassPathXmlApplicationContext ctx = new MyClassPathXmlApplicationContext("beans.xml");
         Hello hello = (Hello)ctx.getBean("hello");
         hello.sayHello();
+        hello.sayHello();
     }
 }
