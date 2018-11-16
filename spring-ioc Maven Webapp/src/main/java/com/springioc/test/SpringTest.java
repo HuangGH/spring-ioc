@@ -8,6 +8,6 @@ public class SpringTest {
         MyClassPathXmlApplicationContext ctx = new MyClassPathXmlApplicationContext("beans.xml");
         Hello hello = (Hello)ctx.getBean("hello");
         hello.sayHello();//测试冲突
-        hello.sayHello();//真的是冲突
+        hello.sayHello();//真的是冲突1
     }
 }
