@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="hello" class="com.springioc.service.Hello">
+		<property name="helloDao" ref="helloDao"></property>
+        <property name="user" value="黄港汇"></property>
+	</bean>
+	<bean id="helloDao" class="com.springioc.dao.HelloDao"/>
+	
+</beans>
+    
